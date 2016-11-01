@@ -1,4 +1,4 @@
-# GyazoSpector
+# GyazoSpector [![Build Status](https://travis-ci.org/send/gyazo_spector.svg?branch=master)](https://travis-ci.org/send/gyazo_spector)
 
 GyazoSpector is a Gyazo client for uploading a screenshot of any web page.
 

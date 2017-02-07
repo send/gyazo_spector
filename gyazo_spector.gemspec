@@ -21,10 +21,10 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'capybara', '~> 2.10'
-  spec.add_dependency 'faraday', '< 0.10', '>= 0.7.4'
-  spec.add_dependency 'nokogiri', '~> 1.6'
-  spec.add_dependency 'poltergeist', '~> 1.11'
+  spec.add_dependency 'capybara'
+  spec.add_dependency 'faraday'
+  spec.add_dependency 'nokogiri'
+  spec.add_dependency 'poltergeist'
 
   spec.add_development_dependency 'bundler', '~> 1.13'
   spec.add_development_dependency 'rake', '~> 10.0'

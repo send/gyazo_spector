@@ -15,7 +15,8 @@ describe GyazoSpector::Client do
         .to_return(body: dummy_response)
     end
     it 'posts a capturing image and return image url' do
-      expect(client.capture(url, selector: '#main').upload!).to eq dummy_response
+      expect(client.capture(url, selector: '#main').upload!)
+        .to eq dummy_response
     end
   end
 end
